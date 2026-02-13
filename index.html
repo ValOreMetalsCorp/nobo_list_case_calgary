@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alberta – Investor Targeting Priority Areas (Socio-Demographic Clusters)</title>
+
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    #map { height: 95vh; width: 100%; }
+
+    /* Título visível */
+    .page-title {
+      position: absolute;
+      top: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 6;
+      color: #0b1f5e; /* azul solicitado */
+      font-weight: 700;
+      font-size: 18px;
+      background: rgba(255,255,255,0.92);
+      padding: 6px 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+      white-space: nowrap;
+      max-width: calc(100% - 220px);
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    #filter-box {
+      position: absolute;
+      top: 80px;          /* afastar do topo */
+      left: 15px;
+      background: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      z-index: 5;
+      min-width: 340px;
+    }
+
+    #filter-box select {
+      padding: 5px;
+      font-size: 14px;
+      min-width: 320px;
+      margin-top: 6px;
+    }
+
+    #legend {
+      position: absolute;
+      bottom: 25px;
+      left: 15px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 10px;
+      padding: 10px 15px;
+      font-size: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      line-height: 1.4;
+      z-index: 5;
+      max-width: 440px;
+    }
+
+    .dot {
+      font-size: 18px;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    .legend-title {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .legend-sub {
+      font-size: 12.5px;
+      color: #444;
+      margin-top: 8px;
+    }
+
+    .legend-row {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Título visível -->
+  <div class="page-title">
+    Alberta – Investor Targeting Map – Volume, Ratio &amp; Priority Segments by FSA Localities
+  </div>
+
+  <div id="filter-box">
+    <b>Mode:</b><br>
+    <select id="modeSelect">
+      <option value="segment_map">Segment map</option>
+      <option value="cluster_vol_label">Volume clusters</option>
+      <option value="cluster_ratio_label">Ratio clusters</option>
+    </select>
+
+    <div style="height:8px;"></div>
+
+    <b>Filter:</b><br>
+    <select id="valueFilter">
+      <option value="ALL">All</option>
+    </select>
+  </div>
+
+  <div id="legend"></div>
+  <div id="map"></div>
+
+  <script>
+    // =========================
+    // GLOBALS
+    // =========================
+    let map, infoWindow;
+    const markers = [];     // usaremos para circles também (tem setMap(null))
+    let FEATURES = [];      // cache do GeoJSON
+
+    // ✅ seu arquivo (mesma pasta do HTML no GitHub Pages)
+    const GEOJSON_URL = "AB_FSA_segments_min.geojson";
+
+    // Opcional: filtrar Alberta por prov=48 (só se existir prov no geojson)
+    const FILTER_BY_PROV = false;
+    const ALBERTA_PROV_CODE = "48";
+
+    // =========================
+    // CONFIG POR MODO (cores, labels, ordem)
+    // =========================
+    const MODE_CONFIG = {
+      segment_map: {
+        title: "Segment map (VOL x RATIO overlap)",
+        key: "segment_map",
+        order: ["both", "vol_only", "ratio_only", "none"],
+        // ↓ Apenas rótulos de exibição (sem alterar chaves/valores)
+        labels: {
+          both: "Both (High Vol + High Ratio)",
+          vol_only: "Vol Only (High Vol Only)",
+          ratio_only: "Ratio Only (High Ratio Only)",
+          none: "None (Baseline)"
+        },
+        colors: {
+          both: "#0b1f5e",
+          vol_only: "#6a1b9a",
+          ratio_only: "#1b9e77",
+          none: "#9e9e9e"
+        }
+      },
+      cluster_vol_label: {
+        title: "Volume clusters",
+        key: "cluster_vol_label",
+        order: ["VOL_HIGH", "VOL_MID", "VOL_LOW"],
+        labels: {
+          VOL_HIGH: "Vol High",
+          VOL_MID: "Vol Mid",
+          VOL_LOW: "Vol Low"
+        },
+        colors: {
+          VOL_HIGH: "#0b1f5e",
+          VOL_MID: "#6a1b9a",
+          VOL_LOW: "#9e9e9e"
+        }
+      },
+      cluster_ratio_label: {
+        title: "Ratio clusters",
+        key: "cluster_ratio_label",
+        order: ["RATIO_HIGH", "RATIO_MID", "RATIO_LOW"],
+        labels: {
+          RATIO_HIGH: "High Ratio",
+          RATIO_MID: "Mid Ratio",
+          RATIO_LOW: "Low Ratio"
+        },
+        colors: {
+          RATIO_HIGH: "#0b1f5e",
+          RATIO_MID: "#6a1b9a",
+          RATIO_LOW: "#9e9e9e"
+        }
+      }
+    };
+
+    // =========================
+    // HELPERS
+    // =========================
+    function computeScaleFixed() {
+      return 7; // (mantido; não usado para o tamanho dinâmico em km)
+    }
+
+    function getMode() {
+      return document.getElementById("modeSelect").value;
+    }
+
+    function getSelectedValue() {
+      return document.getElementById("valueFilter").value; // "ALL" ou categoria
+    }
+
+    function getColor(mode, value) {
+      const cfg = MODE_CONFIG[mode];
+      return (cfg.colors && cfg.colors[value]) ? cfg.colors[value] : "#9e9e9e";
+    }
+
+    function clearMarkers() {
+      markers.forEach(m => m.setMap(null));
+      markers.length = 0;
+    }
+
+    async function fetchGeoJson() {
+      const res = await fetch(GEOJSON_URL, { cache: "no-store" });
+      if (!res.ok) {
+        throw new Error(`Failed to fetch GeoJSON (${res.status}). Check GEOJSON_URL + GitHub Pages path.`);
+      }
+      return await res.json();
+    }
+
+    // Retorna lista de categorias presentes (já filtrada por prov se habilitado)
+    function extractValuesForMode(features, mode) {
+      const cfg = MODE_CONFIG[mode];
+      const key = cfg.key;
+      const found = new Set();
+
+      for (const ft of features) {
+        const props = ft.properties || {};
+
+        if (FILTER_BY_PROV) {
+          const prov = String(props.prov ?? "");
+          if (prov !== ALBERTA_PROV_CODE) continue;
+        }
+
+        const v = props[key];
+        if (v === undefined || v === null || String(v).trim() === "") continue;
+        found.add(String(v));
+      }
+
+      const ordered = [];
+      for (const v of cfg.order) {
+        if (found.has(v)) ordered.push(v);
+      }
+      // extras (se aparecerem)
+      for (const v of [...found].sort()) {
+        if (!ordered.includes(v)) ordered.push(v);
+      }
+      return ordered;
+    }
+
+    function populateValueFilter(features, mode) {
+      const sel = document.getElementById("valueFilter");
+      sel.innerHTML = `<option value="ALL">All</option>`;
+
+      const values = extractValuesForMode(features, mode);
+      const cfg = MODE_CONFIG[mode];
+
+      for (const v of values) {
+        const opt = document.createElement("option");
+        opt.value = v;
+        // ↓ rótulo amigável, quando existir
+        opt.textContent = (cfg.labels && cfg.labels[v]) ? cfg.labels[v] : v;
+        sel.appendChild(opt);
+      }
+    }
+
+    function renderLegend(mode) {
+      const cfg = MODE_CONFIG[mode];
+      const values = extractValuesForMode(FEATURES, mode);
+
+      const legend = document.getElementById("legend");
+      let html = `<div class="legend-title">${cfg.title}</div>`;
+
+      for (const v of values) {
+        const color = getColor(mode, v);
+        const label = (cfg.labels && cfg.labels[v]) ? cfg.labels[v] : v;
+        html += `
+          <div class="legend-row">
+            <span class="dot" style="color:${color};">⬤</span>${label}
+          </div>
+        `;
+      }
+
+      html += `
+        <hr style="border:none; border-top:1px solid #ddd; margin:8px 0;">
+        <div class="legend-sub">
+        Bubble size scales with investor count (sqrt). Click a bubble for details.
+        </div>
+      `;
+      legend.innerHTML = html;
+    }
+
+    function passesFilters(props, mode, selectedValue) {
+      if (FILTER_BY_PROV) {
+        const prov = String(props.prov ?? "");
+        if (prov !== ALBERTA_PROV_CODE) return false;
+      }
+
+      const cfg = MODE_CONFIG[mode];
+      const v = props[cfg.key];
+
+      if (selectedValue !== "ALL") {
+        return String(v) === String(selectedValue);
+      }
+      return true;
+    }
+
+    // =========================
+    // SIZE helpers (raio em km)
+    // =========================
+    function clamp(minV, maxV, v) {
+      return Math.max(minV, Math.min(maxV, v));
+    }
+
+    function zoomFactor(z) {
+      // zoom 10 -> 1.0 | zoom 14 ~ 0.55 | zoom 16 ~ 0.45
+      return Math.pow(0.82, Math.max(0, z - 10));
+    }
+
+    function scaleBoundsByZoom(z) {
+      // limites por zoom para pixel-scale (mantido, ainda que não usado para km)
+      if (z >= 15) return { min: 3.5, max: 16 };
+      if (z >= 13) return { min: 4.0, max: 22 };
+      if (z >= 11) return { min: 5.0, max: 30 };
+      return { min: 6.0, max: 60 };
+    }
+
+    // Mantida apenas para compatibilidade; não usada para o círculo em km.
+    function scaleByInvN(invN, z) {
+      const n = Number(invN);
+      const zz = Number.isFinite(z) ? z : 10;
+      const { min, max } = scaleBoundsByZoom(zz);
+      if (!Number.isFinite(n) || n <= 0) return min;
+      const base = 0.60 * Math.sqrt(n);
+      const scaled = base * zoomFactor(zz);
+      return clamp(min, max, scaled);
+    }
+
+    // Display: raio sugerido (km) por inv_n, com saturação
+    function suggestedRadiusKm_Display(invN) {
+      const n = Number(invN);
+      if (!Number.isFinite(n) || n <= 0) return null;
+      const a = 0.025;   // mais contido
+      const rMin = 1;
+      const rMax = 7;
+      return clamp(rMin, rMax, a * Math.sqrt(n)); // km
+    }
+
+    function drawMarkers(features) {
+      clearMarkers();
+
+      const mode = getMode();
+      const cfg = MODE_CONFIG[mode];
+      const selected = getSelectedValue();
+
+      const bounds = new google.maps.LatLngBounds();
+
+      for (const ft of features) {
+        const props = ft.properties || {};
+        const geom = ft.geometry || {};
+
+        if (geom.type !== "Point" || !Array.isArray(geom.coordinates)) continue;
+        const [lng, lat] = geom.coordinates;
+
+        if (!Number.isFinite(Number(lat)) || !Number.isFinite(Number(lng))) continue;
+        if (!passesFilters(props, mode, selected)) continue;
+
+        const value = String(props[cfg.key] ?? "");
+        const color = getColor(mode, value);
+
+        // Raio por inv_n em km -> converter para metros
+        const invNForScale = props.inv_n;
+        const radiusKm = suggestedRadiusKm_Display(invNForScale);
+        const radiusMeters = (radiusKm !== null) ? radiusKm * 1000 : 0;
+
+        // Desenha círculo (raio em metros)
+        const marker = new google.maps.Circle({
+          strokeColor: color,
+          strokeOpacity: 1.0,
+          strokeWeight: 3,
+          fillColor: color,
+          fillOpacity: 0.65,           // presença em satélite
+          center: { lat: Number(lat), lng: Number(lng) },
+          radius: radiusMeters,
+          map,
+          zIndex: 10
+        });
+
+        // -------- InfoWindow --------
+        marker.addListener("click", () => {
+          const fmtInt = (x) => {
+            const n = Number(x);
+            return Number.isFinite(n) ? Math.round(n).toLocaleString() : "NA";
+          };
+
+          const fmtPct = (x) => {
+            const n = Number(x);
+            return Number.isFinite(n) ? (n * 100).toFixed(1) + "%" : "NA";
+          };
+
+          // income_per_respondent já vem em K CAD / year (não dividir por 1000 aqui)
+          const fmtCadKyr = (x) => {
+            const n = Number(x);
+            return Number.isFinite(n) ? `CAD ${n.toFixed(1)}K/yr` : "NA";
+          };
+
+          const fmtAge = (x) => {
+            const n = Number(x);
+            return Number.isFinite(n) ? n.toFixed(1) : "NA";
+          };
+
+          const fsa = props.fsa ?? "";
+          const prov = String(props.prov ?? "");
+          const address = props.address ?? "";
+
+          const invN = props.inv_n;
+          const ratio = props.investor_ratio;
+          const incomeK = props.income_per_respondent;
+          const age = props.avg_age_estimated;
+
+          const label = (cfg.labels && cfg.labels[value]) ? cfg.labels[value] : value;
+
+          infoWindow.setContent(`
+            <div style="font-size:14px; line-height:1.55; max-width:360px;">
+              <div style="font-size:15px; margin-bottom:6px;">
+                <b>FSA:</b> ${fsa}
+              </div>
+
+              ${prov !== "" && prov !== "NA" ? `<div><b>Province:</b> ${prov}</div>` : ``}
+              ${address ? `<div><b>Address:</b> ${address}</div>` : ``}
+
+              <hr style="border:none; border-top:1px solid #e6e6e6; margin:8px 0;">
+
+              <div><b>Mode:</b> ${cfg.title}</div>
+              <div><b>Category:</b> ${label}</div>
+
+              <hr style="border:none; border-top:1px solid #e6e6e6; margin:8px 0;">
+
+              <div><b>Investors (inv_n):</b> ${fmtInt(invN)}</div>
+              <div><b>Investor ratio (%):</b> ${fmtPct(ratio)}</div>
+              <div><b>Income per respondent (K CAD/yr):</b> ${fmtCadKyr(incomeK)}</div>
+              <div><b>Avg age:</b> ${fmtAge(age)} years</div>
+            </div>
+          `);
+
+          // Abrir no centro do círculo
+          infoWindow.setPosition(marker.getCenter());
+          infoWindow.open(map);
+        });
+
+        markers.push(marker);
+        bounds.extend(marker.getCenter());
+      }
+
+      // fit bounds
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds);
+        google.maps.event.addListenerOnce(map, "bounds_changed", () => {
+          const z = map.getZoom();
+          if (z && z > 9) map.setZoom(9);
+        });
+      } else {
+        map.setCenter({ lat: 53.9333, lng: -116.5765 });
+        map.setZoom(6);
+      }
+    }
+
+    function rerender() {
+      const mode = getMode();
+      populateValueFilter(FEATURES, mode);
+      renderLegend(mode);
+      drawMarkers(FEATURES);
+    }
+
+    // =========================
+    // initMap (callback do Google Maps)
+    // =========================
+    async function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 53.9333, lng: -116.5765 },
+        zoom: 6,
+        // visão de satélite habilitada
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+          style: google.maps.MapTypeControlStyle.DEFAULT,
+          position: google.maps.ControlPosition.TOP_RIGHT
+        }
+      });
+
+      infoWindow = new google.maps.InfoWindow();
+
+      // carrega geojson
+      const geo = await fetchGeoJson();
+      FEATURES = Array.isArray(geo.features) ? geo.features : [];
+
+      // listeners
+      document.getElementById("modeSelect").addEventListener("change", () => {
+        // reset filter ao trocar modo
+        document.getElementById("valueFilter").value = "ALL";
+        rerender();
+      });
+
+      document.getElementById("valueFilter").addEventListener("change", () => {
+        drawMarkers(FEATURES);
+      });
+
+      // render inicial
+      rerender();
+    }
+
+    // =========================
+    // Loader do Maps (callback = initMap)
+    // =========================
+    (function loadGoogleMaps() {
+      const s = document.createElement("script");
+      s.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAONbyPlRVPdMWFKVwzcaWSUsPnBV-aU1o&callback=initMap";
+      s.async = true;
+      s.defer = true;
+      document.head.appendChild(s);
+    })();
+  </script>
+</body>
+</html>
