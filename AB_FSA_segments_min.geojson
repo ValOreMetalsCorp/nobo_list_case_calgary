@@ -1,0 +1,3327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4816163,
+          54.8235292
+        ]
+      },
+      "properties": {
+        "fsa": "T0A",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 12650,
+        "investor_ratio": 0.2842057964502359,
+        "income_per_respondent": 51.291440125814425,
+        "avg_age_estimated": 48.26325247,
+        "address": "Alberta T0A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.703535,
+          52.95741760000001
+        ]
+      },
+      "properties": {
+        "fsa": "T0B",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 18080,
+        "investor_ratio": 0.3793537557700377,
+        "income_per_respondent": 54.69695761644985,
+        "avg_age_estimated": 49.95865687,
+        "address": "Edgerton, AB T0B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.9513034,
+          52.0267944
+        ]
+      },
+      "properties": {
+        "fsa": "T0C",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 16210,
+        "investor_ratio": 0.3465156049593843,
+        "income_per_respondent": 49.46887558785806,
+        "avg_age_estimated": 49.61586148,
+        "address": "Alberta T0C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.8715849,
+          53.3021414
+        ]
+      },
+      "properties": {
+        "fsa": "T0E",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 8750,
+        "investor_ratio": 0.3002745367192862,
+        "income_per_respondent": 53.70336307481126,
+        "avg_age_estimated": 50.2372125,
+        "address": "Alberta T0E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.8462009,
+          56.40672009999999
+        ]
+      },
+      "properties": {
+        "fsa": "T0G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 7020,
+        "investor_ratio": 0.2329903750414869,
+        "income_per_respondent": 46.798307334882175,
+        "avg_age_estimated": 47.36873548,
+        "address": "Grouard, AB T0G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7005314,
+          57.6602121
+        ]
+      },
+      "properties": {
+        "fsa": "T0H",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 17450,
+        "investor_ratio": 0.2943657219973009,
+        "income_per_respondent": 51.86239879,
+        "avg_age_estimated": 45.83184348,
+        "address": "Goodfare, AB T0H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4210178,
+          51.2327638
+        ]
+      },
+      "properties": {
+        "fsa": "T0J",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 13180,
+        "investor_ratio": 0.3437663015127803,
+        "income_per_respondent": 51.28549817423057,
+        "avg_age_estimated": 48.19066249,
+        "address": "Alberta T0J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0610072,
+          49.3765574
+        ]
+      },
+      "properties": {
+        "fsa": "T0K",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 14970,
+        "investor_ratio": 0.340691853,
+        "income_per_respondent": 47.46135639508421,
+        "avg_age_estimated": 47.53618571,
+        "address": "Alberta T0K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9898079,
+          50.3555952
+        ]
+      },
+      "properties": {
+        "fsa": "T0L",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 14060,
+        "investor_ratio": 0.335160906,
+        "income_per_respondent": 52.85525625744935,
+        "avg_age_estimated": 49.40300286,
+        "address": "Alberta T0L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6333076,
+          51.84919439999999
+        ]
+      },
+      "properties": {
+        "fsa": "T0M",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 18090,
+        "investor_ratio": 0.3565937315198108,
+        "income_per_respondent": 56.27620737236349,
+        "avg_age_estimated": 50.01655172,
+        "address": "Alberta T0M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.08128,
+          57.719081
+        ]
+      },
+      "properties": {
+        "fsa": "T0P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 220,
+        "investor_ratio": 0.1286549707602339,
+        "income_per_respondent": 42.57251461988304,
+        "avg_age_estimated": 45.45086705,
+        "address": "Alberta T0P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7017354,
+          50.0293786
+        ]
+      },
+      "properties": {
+        "fsa": "T1A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6140,
+        "investor_ratio": 0.2950504565112926,
+        "income_per_respondent": 49.96967803940413,
+        "avg_age_estimated": 50.91158097,
+        "address": "Medicine Hat, AB T1A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6122546,
+          50.0084802
+        ]
+      },
+      "properties": {
+        "fsa": "T1B",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 9760,
+        "investor_ratio": 0.3765432098765432,
+        "income_per_respondent": 62.069135802469134,
+        "avg_age_estimated": 49.90667181,
+        "address": "Dunmore, AB T1B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6821866,
+          50.0625015
+        ]
+      },
+      "properties": {
+        "fsa": "T1C",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2320,
+        "investor_ratio": 0.32,
+        "income_per_respondent": 60.78165517241379,
+        "avg_age_estimated": 47.53793103,
+        "address": "Medicine Hat, AB T1C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1469935,
+          49.7929027
+        ]
+      },
+      "properties": {
+        "fsa": "T1G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2410,
+        "investor_ratio": 0.2795823665893271,
+        "income_per_respondent": 51.40777262180975,
+        "avg_age_estimated": 45.76566125,
+        "address": "Taber, AB T1G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8045871,
+          49.7286665
+        ]
+      },
+      "properties": {
+        "fsa": "T1H",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5030,
+        "investor_ratio": 0.2308398347865993,
+        "income_per_respondent": 46.6590179,
+        "avg_age_estimated": 48.10325838,
+        "address": "Lethbridge, AB T1H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.931856,
+          49.6806558
+        ]
+      },
+      "properties": {
+        "fsa": "T1J",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6240,
+        "investor_ratio": 0.3146747352496218,
+        "income_per_respondent": 56.53434190620273,
+        "avg_age_estimated": 47.06246851,
+        "address": "Lethbridge, AB T1J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8149467,
+          49.6619465
+        ]
+      },
+      "properties": {
+        "fsa": "T1K",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 12660,
+        "investor_ratio": 0.347515784,
+        "income_per_respondent": 60.54908043,
+        "avg_age_estimated": 48.51990118,
+        "address": "Lethbridge, AB T1K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.572212,
+          51.1845319
+        ]
+      },
+      "properties": {
+        "fsa": "T1L",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 1750,
+        "investor_ratio": 0.2671755725190839,
+        "income_per_respondent": 55.72732824427481,
+        "avg_age_estimated": 42.1826484,
+        "address": "Banff, AB T1L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.6338496,
+          49.71549659999999
+        ]
+      },
+      "properties": {
+        "fsa": "T1M",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2640,
+        "investor_ratio": 0.3287671232876712,
+        "income_per_respondent": 54.83437110834371,
+        "avg_age_estimated": 46.87064677,
+        "address": "Coaldale, AB T1M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3992725,
+          51.0376583
+        ]
+      },
+      "properties": {
+        "fsa": "T1P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3900,
+        "investor_ratio": 0.2857142857142857,
+        "income_per_respondent": 59.48930402930403,
+        "avg_age_estimated": 48.9114202,
+        "address": "Strathmore, AB T1P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8792731,
+          50.57042269999999
+        ]
+      },
+      "properties": {
+        "fsa": "T1R",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3350,
+        "investor_ratio": 0.2447041636230825,
+        "income_per_respondent": 52.47363039,
+        "avg_age_estimated": 44.98977356,
+        "address": "Lake Newell Resort, AB T1R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9677652,
+          50.7281986
+        ]
+      },
+      "properties": {
+        "fsa": "T1S",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 13720,
+        "investor_ratio": 0.4042427813789039,
+        "income_per_respondent": 84.15783736004714,
+        "avg_age_estimated": 48.7008547,
+        "address": "Okotoks, AB T1S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8871308,
+          50.5807955
+        ]
+      },
+      "properties": {
+        "fsa": "T1V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 4490,
+        "investor_ratio": 0.334575261,
+        "income_per_respondent": 56.86967213114754,
+        "avg_age_estimated": 52.00446761,
+        "address": "High River, AB T1V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.3508611,
+          51.0935791
+        ]
+      },
+      "properties": {
+        "fsa": "T1W",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 5960,
+        "investor_ratio": 0.455657492,
+        "income_per_respondent": 86.93868501529052,
+        "avg_age_estimated": 47.93353705,
+        "address": "Canmore, AB T1W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7545428,
+          50.9121637
+        ]
+      },
+      "properties": {
+        "fsa": "T1X",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6430,
+        "investor_ratio": 0.341839447,
+        "income_per_respondent": 67.17538543328017,
+        "avg_age_estimated": 46.36025505,
+        "address": "Indus, AB T1X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9546185,
+          51.0844355
+        ]
+      },
+      "properties": {
+        "fsa": "T1Y",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8210,
+        "investor_ratio": 0.1866757617098681,
+        "income_per_respondent": 39.40420645748068,
+        "avg_age_estimated": 46.30370539,
+        "address": "Calgary, AB T1Y, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8254172,
+          51.0791964
+        ]
+      },
+      "properties": {
+        "fsa": "T1Z",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 760,
+        "investor_ratio": 0.3937823834196891,
+        "income_per_respondent": 82.43989637,
+        "avg_age_estimated": 47.95876289,
+        "address": "Alberta T1Z, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9707531,
+          51.05325029999999
+        ]
+      },
+      "properties": {
+        "fsa": "T2A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 6920,
+        "investor_ratio": 0.1495246326707001,
+        "income_per_respondent": 38.788504753673294,
+        "avg_age_estimated": 46.60069144,
+        "address": "Calgary, AB T2A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9720181,
+          51.0253074
+        ]
+      },
+      "properties": {
+        "fsa": "T2B",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2870,
+        "investor_ratio": 0.1648477886272257,
+        "income_per_respondent": 41.546927053417576,
+        "avg_age_estimated": 48.29529817,
+        "address": "Calgary, AB T2B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9797135,
+          50.98491869999999
+        ]
+      },
+      "properties": {
+        "fsa": "T2C",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5160,
+        "investor_ratio": 0.3021077283372365,
+        "income_per_respondent": 69.20696721311475,
+        "avg_age_estimated": 48.73991818,
+        "address": "Calgary, AB T2C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0309302,
+          51.0899888
+        ]
+      },
+      "properties": {
+        "fsa": "T2E",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 9450,
+        "investor_ratio": 0.3445133065986147,
+        "income_per_respondent": 69.84017499088588,
+        "avg_age_estimated": 47.01129738,
+        "address": "Calgary, AB T2E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.039802,
+          51.0216123
+        ]
+      },
+      "properties": {
+        "fsa": "T2G",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 4200,
+        "investor_ratio": 0.3349282296650718,
+        "income_per_respondent": 72.86834130781499,
+        "avg_age_estimated": 46.16746411,
+        "address": "Calgary, AB T2G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0526391,
+          50.9966789
+        ]
+      },
+      "properties": {
+        "fsa": "T2H",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2300,
+        "investor_ratio": 0.2922490470139771,
+        "income_per_respondent": 62.73100381194409,
+        "avg_age_estimated": 49.28299492,
+        "address": "Calgary, AB T2H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0402226,
+          50.9440928
+        ]
+      },
+      "properties": {
+        "fsa": "T2J",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 14270,
+        "investor_ratio": 0.4160349854227405,
+        "income_per_respondent": 78.82457725947522,
+        "avg_age_estimated": 51.17856103,
+        "address": "Calgary, AB T2J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0775571,
+          51.1019809
+        ]
+      },
+      "properties": {
+        "fsa": "T2K",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 8480,
+        "investor_ratio": 0.3159463487332339,
+        "income_per_respondent": 55.65584947839047,
+        "avg_age_estimated": 48.7150838,
+        "address": "Calgary, AB T2K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1221831,
+          51.0922251
+        ]
+      },
+      "properties": {
+        "fsa": "T2L",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 4960,
+        "investor_ratio": 0.4393268379096545,
+        "income_per_respondent": 71.88591674,
+        "avg_age_estimated": 47.42300885,
+        "address": "Calgary, AB T2L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0819605,
+          51.0677751
+        ]
+      },
+      "properties": {
+        "fsa": "T2M",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 6550,
+        "investor_ratio": 0.4124685138539042,
+        "income_per_respondent": 85.99023929471032,
+        "avg_age_estimated": 44.75629723,
+        "address": "Calgary, AB T2M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1350027,
+          51.067252
+        ]
+      },
+      "properties": {
+        "fsa": "T2N",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 9090,
+        "investor_ratio": 0.4722077922077922,
+        "income_per_respondent": 111.18166233766232,
+        "avg_age_estimated": 45.93565127,
+        "address": "Calgary, AB T2N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0709065,
+          51.0508055
+        ]
+      },
+      "properties": {
+        "fsa": "T2P",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 5390,
+        "investor_ratio": 0.3942940746159473,
+        "income_per_respondent": 98.10702267739576,
+        "avg_age_estimated": 45.97078159,
+        "address": "Calgary, AB T2P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0786315,
+          51.0421966
+        ]
+      },
+      "properties": {
+        "fsa": "T2R",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4480,
+        "investor_ratio": 0.3360840210052513,
+        "income_per_respondent": 80.59332333,
+        "avg_age_estimated": 41.12087087,
+        "address": "Calgary, AB T2R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0827265,
+          51.015007
+        ]
+      },
+      "properties": {
+        "fsa": "T2S",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 5630,
+        "investor_ratio": 0.5058400718778078,
+        "income_per_respondent": 165.9722371967655,
+        "avg_age_estimated": 47.04573991,
+        "address": "Calgary, AB T2S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1012024,
+          51.0303415
+        ]
+      },
+      "properties": {
+        "fsa": "T2T",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 10800,
+        "investor_ratio": 0.4851752021563342,
+        "income_per_respondent": 141.49991015274034,
+        "avg_age_estimated": 45.21608266,
+        "address": "Calgary, AB T2T, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.103535,
+          50.9744907
+        ]
+      },
+      "properties": {
+        "fsa": "T2V",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 10830,
+        "investor_ratio": 0.4267139479905437,
+        "income_per_respondent": 91.83250591016548,
+        "avg_age_estimated": 50.48207956,
+        "address": "Calgary, AB T2V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1078901,
+          50.9403565
+        ]
+      },
+      "properties": {
+        "fsa": "T2W",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 11620,
+        "investor_ratio": 0.3616557734204793,
+        "income_per_respondent": 65.83993152816683,
+        "avg_age_estimated": 49.58755832,
+        "address": "TSUU T'INA, AB T2W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0362279,
+          50.9007635
+        ]
+      },
+      "properties": {
+        "fsa": "T2X",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 13740,
+        "investor_ratio": 0.3239801933506248,
+        "income_per_respondent": 67.93136052817732,
+        "avg_age_estimated": 45.20679085,
+        "address": "Calgary, AB T2X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0942415,
+          50.915707
+        ]
+      },
+      "properties": {
+        "fsa": "T2Y",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 14830,
+        "investor_ratio": 0.307740195,
+        "income_per_respondent": 59.718842083419794,
+        "avg_age_estimated": 46.95496991,
+        "address": "Calgary, AB T2Y, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9590279,
+          50.9231059
+        ]
+      },
+      "properties": {
+        "fsa": "T2Z",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 15660,
+        "investor_ratio": 0.3004028390562056,
+        "income_per_respondent": 67.98296566276616,
+        "avg_age_estimated": 44.79812117,
+        "address": "Calgary, AB T2Z, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1326966,
+          51.1231881
+        ]
+      },
+      "properties": {
+        "fsa": "T3A",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 19430,
+        "investor_ratio": 0.4541841982234689,
+        "income_per_respondent": 70.19270687237027,
+        "avg_age_estimated": 49.56845794,
+        "address": "Calgary, AB T3A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.228387,
+          51.0911005
+        ]
+      },
+      "properties": {
+        "fsa": "T3B",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 11680,
+        "investor_ratio": 0.3974140864239537,
+        "income_per_respondent": 76.99050697516162,
+        "avg_age_estimated": 49.8758081,
+        "address": "Calgary, AB T3B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1329499,
+          51.0455428
+        ]
+      },
+      "properties": {
+        "fsa": "T3C",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 6120,
+        "investor_ratio": 0.3353424657534246,
+        "income_per_respondent": 72.75194520547946,
+        "avg_age_estimated": 45.25932018,
+        "address": "Calgary, AB T3C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1457448,
+          51.020588
+        ]
+      },
+      "properties": {
+        "fsa": "T3E",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 12330,
+        "investor_ratio": 0.3951923076923077,
+        "income_per_respondent": 80.87266025641026,
+        "avg_age_estimated": 47.75616789,
+        "address": "TSUU T'INA, AB T3E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1911222,
+          51.1381168
+        ]
+      },
+      "properties": {
+        "fsa": "T3G",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 17690,
+        "investor_ratio": 0.382073434,
+        "income_per_respondent": 66.37203023758099,
+        "avg_age_estimated": 47.83549223,
+        "address": "Calgary, AB T3G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1955564,
+          51.0262699
+        ]
+      },
+      "properties": {
+        "fsa": "T3H",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 28080,
+        "investor_ratio": 0.4979606313176095,
+        "income_per_respondent": 102.39350948749778,
+        "avg_age_estimated": 48.16223404,
+        "address": "Calgary, AB T3H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9649807,
+          51.1154167
+        ]
+      },
+      "properties": {
+        "fsa": "T3J",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 11110,
+        "investor_ratio": 0.1713448488587292,
+        "income_per_respondent": 37.90211289327576,
+        "avg_age_estimated": 42.18198643,
+        "address": "Calgary, AB T3J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.066704,
+          51.1487021
+        ]
+      },
+      "properties": {
+        "fsa": "T3K",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 18770,
+        "investor_ratio": 0.300079936,
+        "income_per_respondent": 54.10183852917666,
+        "avg_age_estimated": 46.35118286,
+        "address": "Calgary, AB T3K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.250692,
+          51.1250236
+        ]
+      },
+      "properties": {
+        "fsa": "T3L",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 10500,
+        "investor_ratio": 0.4510309278350515,
+        "income_per_respondent": 89.63118557,
+        "avg_age_estimated": 47.44377682,
+        "address": "Calgary, AB T3L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9750782,
+          50.8920048
+        ]
+      },
+      "properties": {
+        "fsa": "T3M",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 13400,
+        "investor_ratio": 0.3372766171658696,
+        "income_per_respondent": 78.10241631009313,
+        "avg_age_estimated": 43.78202869,
+        "address": "Calgary, AB T3M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.935855,
+          51.1716168
+        ]
+      },
+      "properties": {
+        "fsa": "T3N",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4820,
+        "investor_ratio": 0.1876216426625146,
+        "income_per_respondent": 43.549785908913975,
+        "avg_age_estimated": 39.27392996,
+        "address": "Calgary, AB T3N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1397517,
+          51.2382087
+        ]
+      },
+      "properties": {
+        "fsa": "T3P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5970,
+        "investor_ratio": 0.2983508245877061,
+        "income_per_respondent": 61.26866566716642,
+        "avg_age_estimated": 41.82858571,
+        "address": "Calgary, AB T3P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.2357405,
+          51.2060464
+        ]
+      },
+      "properties": {
+        "fsa": "T3R",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8810,
+        "investor_ratio": 0.3489108910891089,
+        "income_per_respondent": 72.50019801980199,
+        "avg_age_estimated": 43.68947785,
+        "address": "Calgary, AB T3R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5765035,
+          53.9332706
+        ]
+      },
+      "properties": {
+        "fsa": "T3T",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 40,
+        "investor_ratio": 0.05,
+        "income_per_respondent": 8.88,
+        "avg_age_estimated": 41.05,
+        "address": "Alberta, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.346373,
+          51.0928155
+        ]
+      },
+      "properties": {
+        "fsa": "T3Z",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 5820,
+        "investor_ratio": 0.6191489361702127,
+        "income_per_respondent": 176.58787234042552,
+        "avg_age_estimated": 49.30573248,
+        "address": "Redwood Meadows, AB T3Z, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9806421,
+          51.2895507
+        ]
+      },
+      "properties": {
+        "fsa": "T4A",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4510,
+        "investor_ratio": 0.2971014492753623,
+        "income_per_respondent": 65.75131752305666,
+        "avg_age_estimated": 45.93819855,
+        "address": "Airdrie, AB T4A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0371938,
+          51.2828145
+        ]
+      },
+      "properties": {
+        "fsa": "T4B",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 11140,
+        "investor_ratio": 0.2703883495145631,
+        "income_per_respondent": 64.14626213592233,
+        "avg_age_estimated": 44.4272198,
+        "address": "Airdrie, AB T4B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.4083963,
+          51.1790499
+        ]
+      },
+      "properties": {
+        "fsa": "T4C",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 10780,
+        "investor_ratio": 0.3806497175141243,
+        "income_per_respondent": 75.19392655367231,
+        "avg_age_estimated": 48.37146893,
+        "address": "Cochrane, AB T4C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.552493,
+          52.20278339999999
+        ]
+      },
+      "properties": {
+        "fsa": "T4E",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 2230,
+        "investor_ratio": 0.5360576923076923,
+        "income_per_respondent": 76.96778846153846,
+        "avg_age_estimated": 50.67703349,
+        "address": "Red Deer County, AB T4E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.9611108,
+          52.0200779
+        ]
+      },
+      "properties": {
+        "fsa": "T4G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3650,
+        "investor_ratio": 0.3675730110775428,
+        "income_per_respondent": 55.58006042296073,
+        "avg_age_estimated": 51.17842742,
+        "address": "Innisfail, AB T4G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.1157152,
+          51.8014401
+        ]
+      },
+      "properties": {
+        "fsa": "T4H",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3840,
+        "investor_ratio": 0.3902439024390244,
+        "income_per_respondent": 57.43506097560976,
+        "avg_age_estimated": 50.71820956,
+        "address": "Olds, AB T4H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5779292,
+          52.688266
+        ]
+      },
+      "properties": {
+        "fsa": "T4J",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3310,
+        "investor_ratio": 0.3502645502645503,
+        "income_per_respondent": 55.2784127,
+        "avg_age_estimated": 49.18816068,
+        "address": "Ponoka, AB T4J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7375143,
+          52.4678962
+        ]
+      },
+      "properties": {
+        "fsa": "T4L",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5020,
+        "investor_ratio": 0.3537702607470049,
+        "income_per_respondent": 59.81705426356589,
+        "avg_age_estimated": 48.60183228,
+        "address": "Lacombe, AB T4L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5765035,
+          53.9332706
+        ]
+      },
+      "properties": {
+        "fsa": "T4M",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 1270,
+        "investor_ratio": 0.2461240310077519,
+        "income_per_respondent": 65.52112403100776,
+        "avg_age_estimated": 40.86821705,
+        "address": "Alberta, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8032239,
+          52.2677364
+        ]
+      },
+      "properties": {
+        "fsa": "T4N",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6250,
+        "investor_ratio": 0.2656183595410115,
+        "income_per_respondent": 53.40084997875053,
+        "avg_age_estimated": 49.10544218,
+        "address": "Red Deer, AB T4N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8222859,
+          52.3087536
+        ]
+      },
+      "properties": {
+        "fsa": "T4P",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 6200,
+        "investor_ratio": 0.2473075388911049,
+        "income_per_respondent": 55.68264858,
+        "avg_age_estimated": 46.05267358,
+        "address": "Red Deer, AB T4P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7621201,
+          52.2427102
+        ]
+      },
+      "properties": {
+        "fsa": "T4R",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 9390,
+        "investor_ratio": 0.3279776458260566,
+        "income_per_respondent": 65.71742927,
+        "avg_age_estimated": 46.80726257,
+        "address": "Red Deer, AB T4R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0993997,
+          52.2999427
+        ]
+      },
+      "properties": {
+        "fsa": "T4S",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5020,
+        "investor_ratio": 0.3215887251761691,
+        "income_per_respondent": 66.37950032,
+        "avg_age_estimated": 46.40871236,
+        "address": "Sylvan Lake, AB T4S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9061652,
+          52.3768019
+        ]
+      },
+      "properties": {
+        "fsa": "T4T",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3770,
+        "investor_ratio": 0.3258426966292135,
+        "income_per_respondent": 55.160414866032845,
+        "avg_age_estimated": 48.67443869,
+        "address": "Rocky Mountain House, AB T4T, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8299787,
+          53.01821229999999
+        ]
+      },
+      "properties": {
+        "fsa": "T4V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5560,
+        "investor_ratio": 0.3343355381840048,
+        "income_per_respondent": 55.9210463,
+        "avg_age_estimated": 50.97115385,
+        "address": "Camrose, AB T4V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4118948,
+          53.348437
+        ]
+      },
+      "properties": {
+        "fsa": "T4X",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 6590,
+        "investor_ratio": 0.339166238,
+        "income_per_respondent": 72.72213072568194,
+        "avg_age_estimated": 45.43084833,
+        "address": "Beaumont, AB T4X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4047699,
+          53.59012809999999
+        ]
+      },
+      "properties": {
+        "fsa": "T5A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5220,
+        "investor_ratio": 0.201622248,
+        "income_per_respondent": 46.23178833526458,
+        "avg_age_estimated": 47.50811437,
+        "address": "Edmonton, AB T5A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4596257,
+          53.5673124
+        ]
+      },
+      "properties": {
+        "fsa": "T5B",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2070,
+        "investor_ratio": 0.1779879621668099,
+        "income_per_respondent": 41.61126397248496,
+        "avg_age_estimated": 47.65206186,
+        "address": "Edmonton, AB T5B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4558821,
+          53.599602
+        ]
+      },
+      "properties": {
+        "fsa": "T5C",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2650,
+        "investor_ratio": 0.2157980456026058,
+        "income_per_respondent": 44.35537459283388,
+        "avg_age_estimated": 48.37591538,
+        "address": "Edmonton, AB T5C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4859184,
+          53.5962381
+        ]
+      },
+      "properties": {
+        "fsa": "T5E",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5510,
+        "investor_ratio": 0.2223567393058918,
+        "income_per_respondent": 46.08841807909605,
+        "avg_age_estimated": 47.81678773,
+        "address": "Edmonton, AB T5E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5001865,
+          53.5703523
+        ]
+      },
+      "properties": {
+        "fsa": "T5G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 1680,
+        "investor_ratio": 0.1798715203426124,
+        "income_per_respondent": 41.46916488222698,
+        "avg_age_estimated": 46.00213904,
+        "address": "Edmonton, AB T5G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.488818,
+          53.5526619
+        ]
+      },
+      "properties": {
+        "fsa": "T5H",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3160,
+        "investor_ratio": 0.1556650246305418,
+        "income_per_respondent": 41.64142857142857,
+        "avg_age_estimated": 45.43596059,
+        "address": "Edmonton, AB T5H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4972441,
+          53.5437516
+        ]
+      },
+      "properties": {
+        "fsa": "T5J",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 3650,
+        "investor_ratio": 0.4579673776662484,
+        "income_per_respondent": 66.42095357590966,
+        "avg_age_estimated": 46.55388471,
+        "address": "Edmonton, AB T5J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5118292,
+          53.5364241
+        ]
+      },
+      "properties": {
+        "fsa": "T5K",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5420,
+        "investor_ratio": 0.3190111830488523,
+        "income_per_respondent": 66.74532078,
+        "avg_age_estimated": 47.0446796,
+        "address": "Edmonton, AB T5K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5495537,
+          53.58300939999999
+        ]
+      },
+      "properties": {
+        "fsa": "T5L",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2930,
+        "investor_ratio": 0.2273079906904577,
+        "income_per_respondent": 48.59317300232738,
+        "avg_age_estimated": 47.97054264,
+        "address": "Edmonton, AB T5L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5478812,
+          53.5604319
+        ]
+      },
+      "properties": {
+        "fsa": "T5M",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3030,
+        "investor_ratio": 0.2650918635170604,
+        "income_per_respondent": 56.435345581802274,
+        "avg_age_estimated": 48.54895105,
+        "address": "Edmonton, AB T5M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5567675,
+          53.5442556
+        ]
+      },
+      "properties": {
+        "fsa": "T5N",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 4570,
+        "investor_ratio": 0.4047829937998228,
+        "income_per_respondent": 92.07085916740478,
+        "avg_age_estimated": 48.07787611,
+        "address": "Edmonton, AB T5N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5955667,
+          53.5504897
+        ]
+      },
+      "properties": {
+        "fsa": "T5P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3020,
+        "investor_ratio": 0.1922342457033736,
+        "income_per_respondent": 43.61782304264799,
+        "avg_age_estimated": 48.37977099,
+        "address": "Edmonton, AB T5P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5850745,
+          53.5183011
+        ]
+      },
+      "properties": {
+        "fsa": "T5R",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6610,
+        "investor_ratio": 0.3502914679385268,
+        "income_per_respondent": 73.57869634340223,
+        "avg_age_estimated": 49.17647059,
+        "address": "Edmonton, AB T5R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6485172,
+          53.5566196
+        ]
+      },
+      "properties": {
+        "fsa": "T5S",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 1430,
+        "investor_ratio": 0.2553571428571428,
+        "income_per_respondent": 74.44607142857143,
+        "avg_age_estimated": 44.99465241,
+        "address": "Edmonton, AB T5S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6450474,
+          53.5114948
+        ]
+      },
+      "properties": {
+        "fsa": "T5T",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 15020,
+        "investor_ratio": 0.2533738191632928,
+        "income_per_respondent": 56.40556680161944,
+        "avg_age_estimated": 46.37135144,
+        "address": "Edmonton, AB T5T, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6307985,
+          53.58899599999999
+        ]
+      },
+      "properties": {
+        "fsa": "T5V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 110,
+        "investor_ratio": 0.34375,
+        "income_per_respondent": 57.7875,
+        "avg_age_estimated": 53.90625,
+        "address": "Edmonton, AB T5V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4278292,
+          53.5739004
+        ]
+      },
+      "properties": {
+        "fsa": "T5W",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3470,
+        "investor_ratio": 0.2263535551206784,
+        "income_per_respondent": 48.54957599478148,
+        "avg_age_estimated": 48.49413299,
+        "address": "Edmonton, AB T5W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5122556,
+          53.6251673
+        ]
+      },
+      "properties": {
+        "fsa": "T5X",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8060,
+        "investor_ratio": 0.2484586929716399,
+        "income_per_respondent": 50.73255240443896,
+        "avg_age_estimated": 47.23027127,
+        "address": "Edmonton, AB T5X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3652996,
+          53.6613181
+        ]
+      },
+      "properties": {
+        "fsa": "T5Y",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8600,
+        "investor_ratio": 0.2118226600985221,
+        "income_per_respondent": 53.33874384236453,
+        "avg_age_estimated": 43.65960591,
+        "address": "Edmonton, AB T5Y, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.474229,
+          53.6301928
+        ]
+      },
+      "properties": {
+        "fsa": "T5Z",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 7470,
+        "investor_ratio": 0.278731343,
+        "income_per_respondent": 54.91261194,
+        "avg_age_estimated": 45.88764464,
+        "address": "Edmonton, AB T5Z, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4262333,
+          53.5513219
+        ]
+      },
+      "properties": {
+        "fsa": "T6A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 4170,
+        "investor_ratio": 0.3703374777975133,
+        "income_per_respondent": 63.91447602131439,
+        "avg_age_estimated": 49.86856128,
+        "address": "Edmonton, AB T6A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4159033,
+          53.5191111
+        ]
+      },
+      "properties": {
+        "fsa": "T6B",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2650,
+        "investor_ratio": 0.3505291005291005,
+        "income_per_respondent": 61.69246031746032,
+        "avg_age_estimated": 50.256917,
+        "address": "Edmonton, AB T6B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.456394,
+          53.5221688
+        ]
+      },
+      "properties": {
+        "fsa": "T6C",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5500,
+        "investor_ratio": 0.3644797879390324,
+        "income_per_respondent": 68.14433399602386,
+        "avg_age_estimated": 48.90662252,
+        "address": "Edmonton, AB T6C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4706456,
+          53.4963147
+        ]
+      },
+      "properties": {
+        "fsa": "T6E",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5390,
+        "investor_ratio": 0.312463768,
+        "income_per_respondent": 64.88121739130435,
+        "avg_age_estimated": 44.63325608,
+        "address": "Edmonton, AB T6E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5286611,
+          53.5186043
+        ]
+      },
+      "properties": {
+        "fsa": "T6G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3310,
+        "investor_ratio": 0.3791523482245131,
+        "income_per_respondent": 75.32852233676977,
+        "avg_age_estimated": 41.59450172,
+        "address": "Edmonton, AB T6G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5428676,
+          53.492742
+        ]
+      },
+      "properties": {
+        "fsa": "T6H",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 7400,
+        "investor_ratio": 0.3503787878787879,
+        "income_per_respondent": 69.26226325757575,
+        "avg_age_estimated": 47.14251894,
+        "address": "Edmonton, AB T6H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5288896,
+          53.467034
+        ]
+      },
+      "properties": {
+        "fsa": "T6J",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 13130,
+        "investor_ratio": 0.3658400668709947,
+        "income_per_respondent": 64.22989691,
+        "avg_age_estimated": 48.90167131,
+        "address": "Edmonton, AB T6J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4515509,
+          53.4545068
+        ]
+      },
+      "properties": {
+        "fsa": "T6K",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4960,
+        "investor_ratio": 0.2344045368620037,
+        "income_per_respondent": 46.51186200378072,
+        "avg_age_estimated": 47.54700047,
+        "address": "Edmonton, AB T6K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4198551,
+          53.46107929999999
+        ]
+      },
+      "properties": {
+        "fsa": "T6L",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 9070,
+        "investor_ratio": 0.2314365909670834,
+        "income_per_respondent": 47.838912988007145,
+        "avg_age_estimated": 46.83261036,
+        "address": "Edmonton, AB T6L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6415805,
+          53.4663985
+        ]
+      },
+      "properties": {
+        "fsa": "T6M",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 8880,
+        "investor_ratio": 0.3443195036835983,
+        "income_per_respondent": 76.02070569988368,
+        "avg_age_estimated": 45.76027929,
+        "address": "Edmonton, AB T6M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3595593,
+          53.5193148
+        ]
+      },
+      "properties": {
+        "fsa": "T6P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 200,
+        "investor_ratio": 0.1438848920863309,
+        "income_per_respondent": 56.118705035971225,
+        "avg_age_estimated": 51.84892086,
+        "address": "Edmonton, AB T6P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5887627,
+          53.4602696
+        ]
+      },
+      "properties": {
+        "fsa": "T6R",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 15940,
+        "investor_ratio": 0.4448785933575216,
+        "income_per_respondent": 85.64674853474742,
+        "avg_age_estimated": 48.47991071,
+        "address": "Edmonton, AB T6R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.382015,
+          53.466053
+        ]
+      },
+      "properties": {
+        "fsa": "T6T",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8280,
+        "investor_ratio": 0.2122532683927198,
+        "income_per_respondent": 46.62068700333248,
+        "avg_age_estimated": 40.79164531,
+        "address": "Edmonton, AB T6T, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5600245,
+          53.61523159999999
+        ]
+      },
+      "properties": {
+        "fsa": "T6V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4250,
+        "investor_ratio": 0.2555622369212267,
+        "income_per_respondent": 55.57137702946482,
+        "avg_age_estimated": 44.77256318,
+        "address": "Edmonton, AB T6V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5572346,
+          53.4153561
+        ]
+      },
+      "properties": {
+        "fsa": "T6W",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 18180,
+        "investor_ratio": 0.3019431988041853,
+        "income_per_respondent": 67.61089520013287,
+        "avg_age_estimated": 42.39544926,
+        "address": "Edmonton, AB T6W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4447708,
+          53.4158884
+        ]
+      },
+      "properties": {
+        "fsa": "T6X",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 8820,
+        "investor_ratio": 0.239089184,
+        "income_per_respondent": 58.96096503117376,
+        "avg_age_estimated": 40.7338032,
+        "address": "Edmonton, AB T6X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.9764811,
+          53.220611
+        ]
+      },
+      "properties": {
+        "fsa": "T7A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3200,
+        "investor_ratio": 0.3235591506572295,
+        "income_per_respondent": 61.75773509,
+        "avg_age_estimated": 47.67373737,
+        "address": "Drayton Valley, AB T7A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.4428615,
+          53.5855087
+        ]
+      },
+      "properties": {
+        "fsa": "T7E",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3290,
+        "investor_ratio": 0.3046296296296296,
+        "income_per_respondent": 61.720925925925926,
+        "avg_age_estimated": 47.14879852,
+        "address": "Edson, AB T7E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3954066,
+          54.1187723
+        ]
+      },
+      "properties": {
+        "fsa": "T7N",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2590,
+        "investor_ratio": 0.3906485671191553,
+        "income_per_respondent": 50.15037707390648,
+        "avg_age_estimated": 51.60876133,
+        "address": "Barrhead, AB T7N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8592013,
+          54.157502
+        ]
+      },
+      "properties": {
+        "fsa": "T7P",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 1990,
+        "investor_ratio": 0.3204508856682769,
+        "income_per_respondent": 48.17697262479872,
+        "avg_age_estimated": 51.2733119,
+        "address": "Westlock, AB T7P, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6803288,
+          54.1276182
+        ]
+      },
+      "properties": {
+        "fsa": "T7S",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2650,
+        "investor_ratio": 0.2676767676767677,
+        "income_per_respondent": 61.78878787878788,
+        "avg_age_estimated": 44.80625631,
+        "address": "Whitecourt, AB T7S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5718423,
+          53.4037088
+        ]
+      },
+      "properties": {
+        "fsa": "T7V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2390,
+        "investor_ratio": 0.2876052948255114,
+        "income_per_respondent": 63.84175691937425,
+        "avg_age_estimated": 46.67349398,
+        "address": "Hinton, AB T7V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.8817482,
+          53.5419565
+        ]
+      },
+      "properties": {
+        "fsa": "T7X",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 9790,
+        "investor_ratio": 0.2730061349693251,
+        "income_per_respondent": 64.67847183491355,
+        "avg_age_estimated": 46.48996096,
+        "address": "Spruce Grove, AB T7X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7754245,
+          53.4268254
+        ]
+      },
+      "properties": {
+        "fsa": "T7Y",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 5750,
+        "investor_ratio": 0.4006968641114982,
+        "income_per_respondent": 76.18843205574913,
+        "avg_age_estimated": 49.56406685,
+        "address": "Parkland County, AB T7Y, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.0019279,
+          53.5279314
+        ]
+      },
+      "properties": {
+        "fsa": "T7Z",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 4600,
+        "investor_ratio": 0.3038309114927345,
+        "income_per_respondent": 61.83824306472919,
+        "avg_age_estimated": 50.05082508,
+        "address": "Stony Plain, AB T7Z, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.2636914,
+          53.5905657
+        ]
+      },
+      "properties": {
+        "fsa": "T8A",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 13190,
+        "investor_ratio": 0.3887415266725612,
+        "income_per_respondent": 73.64037725,
+        "avg_age_estimated": 49.79345905,
+        "address": "Sherwood Park, AB T8A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.2864257,
+          53.448622
+        ]
+      },
+      "properties": {
+        "fsa": "T8B",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 3150,
+        "investor_ratio": 0.5320945945945946,
+        "income_per_respondent": 116.5391891891892,
+        "avg_age_estimated": 50.13490725,
+        "address": "Sherwood Park, AB T8B, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.2057579,
+          53.4423484
+        ]
+      },
+      "properties": {
+        "fsa": "T8C",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 1630,
+        "investor_ratio": 0.4565826330532213,
+        "income_per_respondent": 95.89103641456585,
+        "avg_age_estimated": 49.91596639,
+        "address": "Sherwood Park, AB T8C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.111885,
+          53.610178
+        ]
+      },
+      "properties": {
+        "fsa": "T8E",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 2710,
+        "investor_ratio": 0.4137404580152671,
+        "income_per_respondent": 75.74580152671756,
+        "avg_age_estimated": 49.26676829,
+        "address": "Ardrossan, AB T8E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9839925,
+          53.487583
+        ]
+      },
+      "properties": {
+        "fsa": "T8G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 1330,
+        "investor_ratio": 0.3537234042553192,
+        "income_per_respondent": 71.55691489361702,
+        "avg_age_estimated": 48.8962766,
+        "address": "Alberta T8G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.2975742,
+          53.55498129999999
+        ]
+      },
+      "properties": {
+        "fsa": "T8H",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 8060,
+        "investor_ratio": 0.3376623376623376,
+        "income_per_respondent": 72.75936321742773,
+        "avg_age_estimated": 47.51844091,
+        "address": "Sherwood Park, AB T8H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.0390751,
+          53.7394988
+        ]
+      },
+      "properties": {
+        "fsa": "T8L",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6860,
+        "investor_ratio": 0.312956204,
+        "income_per_respondent": 70.64434306569343,
+        "avg_age_estimated": 46.50660592,
+        "address": "Fort Saskatchewan, AB T8L, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6059385,
+          53.6343435
+        ]
+      },
+      "properties": {
+        "fsa": "T8N",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 19890,
+        "investor_ratio": 0.3727511244377811,
+        "income_per_respondent": 75.01770989505248,
+        "avg_age_estimated": 49.65198651,
+        "address": "St. Albert, AB T8N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.6463436,
+          53.79250649999999
+        ]
+      },
+      "properties": {
+        "fsa": "T8R",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3230,
+        "investor_ratio": 0.2609046849757673,
+        "income_per_respondent": 60.14184168012924,
+        "avg_age_estimated": 46.56992724,
+        "address": "Morinville, AB T8R, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3214406,
+          56.214042
+        ]
+      },
+      "properties": {
+        "fsa": "T8S",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 2110,
+        "investor_ratio": 0.2967651195499297,
+        "income_per_respondent": 60.308720112517584,
+        "avg_age_estimated": 45.02949438,
+        "address": "Peace River, AB T8S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7617494,
+          53.6591283
+        ]
+      },
+      "properties": {
+        "fsa": "T8T",
+        "segment_map": "both",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 2840,
+        "investor_ratio": 0.4805414551607445,
+        "income_per_respondent": 96.32656514382404,
+        "avg_age_estimated": 48.60677966,
+        "address": "Alberta T8T, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8104744,
+          55.1739502
+        ]
+      },
+      "properties": {
+        "fsa": "T8V",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5750,
+        "investor_ratio": 0.2293577981651376,
+        "income_per_respondent": 57.12054248105305,
+        "avg_age_estimated": 44.73644338,
+        "address": "Grande Prairie, AB T8V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.808265,
+          55.1443702
+        ]
+      },
+      "properties": {
+        "fsa": "T8W",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5070,
+        "investor_ratio": 0.3235481812380344,
+        "income_per_respondent": 78.16266751754945,
+        "avg_age_estimated": 42.79578813,
+        "address": "Grande Prairie, AB T8W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.7594755,
+          55.1720108
+        ]
+      },
+      "properties": {
+        "fsa": "T8X",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 4880,
+        "investor_ratio": 0.2814302191464821,
+        "income_per_respondent": 69.87704728950403,
+        "avg_age_estimated": 42.68627451,
+        "address": "Grande Prairie, AB T8X, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.3814202,
+          52.97320930000001
+        ]
+      },
+      "properties": {
+        "fsa": "T9A",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3420,
+        "investor_ratio": 0.2861924686192468,
+        "income_per_respondent": 50.492301255230124,
+        "avg_age_estimated": 50.85929648,
+        "address": "Wetaskiwin, AB T9A, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0538628,
+          53.495408
+        ]
+      },
+      "properties": {
+        "fsa": "T9C",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 1980,
+        "investor_ratio": 0.3384615384615385,
+        "income_per_respondent": 54.91880341880342,
+        "avg_age_estimated": 51.28082192,
+        "address": "Vegreville, AB T9C, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5278622,
+          53.2900584
+        ]
+      },
+      "properties": {
+        "fsa": "T9E",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 6870,
+        "investor_ratio": 0.2662790697674418,
+        "income_per_respondent": 62.304496124031004,
+        "avg_age_estimated": 46.72540666,
+        "address": "Leduc, AB T9E, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.7233907,
+          53.3547991
+        ]
+      },
+      "properties": {
+        "fsa": "T9G",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 1460,
+        "investor_ratio": 0.275992439,
+        "income_per_respondent": 59.20623819,
+        "avg_age_estimated": 48.85444234,
+        "address": "Devon, AB T9G, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.3578297,
+          56.6939213
+        ]
+      },
+      "properties": {
+        "fsa": "T9H",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 5380,
+        "investor_ratio": 0.2659416707859614,
+        "income_per_respondent": 87.20781018,
+        "avg_age_estimated": 43.09980237,
+        "address": "Fort McMurray, AB T9H, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4052626,
+          56.6441805
+        ]
+      },
+      "properties": {
+        "fsa": "T9J",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 760,
+        "investor_ratio": 0.2857142857142857,
+        "income_per_respondent": 95.05413533834586,
+        "avg_age_estimated": 40.57303371,
+        "address": "Fort McMurray, AB T9J, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4579292,
+          56.7525147
+        ]
+      },
+      "properties": {
+        "fsa": "T9K",
+        "segment_map": "ratio_only",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_HIGH",
+        "inv_n": 10610,
+        "investor_ratio": 0.3622396722430864,
+        "income_per_respondent": 104.05629907818368,
+        "avg_age_estimated": 40.92284056,
+        "address": "Fort McMurray, AB T9K, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2072268,
+          54.4215858
+        ]
+      },
+      "properties": {
+        "fsa": "T9M",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_MID",
+        "cluster_ratio_label": "RATIO_LOW",
+        "inv_n": 3840,
+        "investor_ratio": 0.2692847124824684,
+        "income_per_respondent": 65.40252454417953,
+        "avg_age_estimated": 43.64751226,
+        "address": "Cold Lake, AB T9M, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7239403,
+          54.28460099999999
+        ]
+      },
+      "properties": {
+        "fsa": "T9N",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 3270,
+        "investor_ratio": 0.3645484949832775,
+        "income_per_respondent": 64.15652173913044,
+        "avg_age_estimated": 46.92658509,
+        "address": "Bonnyville, AB T9N, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.5391344,
+          54.7345379
+        ]
+      },
+      "properties": {
+        "fsa": "T9S",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2140,
+        "investor_ratio": 0.3683304647160069,
+        "income_per_respondent": 57.795180722891565,
+        "avg_age_estimated": 50.05660377,
+        "address": "Whispering Hills, AB T9S, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.0318654,
+          53.2690066
+        ]
+      },
+      "properties": {
+        "fsa": "T9V",
+        "segment_map": "vol_only",
+        "cluster_vol_label": "VOL_HIGH",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 6490,
+        "investor_ratio": 0.3974280465401102,
+        "income_per_respondent": 68.37336191,
+        "avg_age_estimated": 47.05385557,
+        "address": "Lloydminster, AB T9V, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.850706,
+          52.8419502
+        ]
+      },
+      "properties": {
+        "fsa": "T9W",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 2380,
+        "investor_ratio": 0.363914373,
+        "income_per_respondent": 60.68042813455658,
+        "avg_age_estimated": 47.32824427,
+        "address": "Wainwright, AB T9W, Canada",
+        "prov": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.858557,
+          53.3464924
+        ]
+      },
+      "properties": {
+        "fsa": "T9X",
+        "segment_map": "none",
+        "cluster_vol_label": "VOL_LOW",
+        "cluster_ratio_label": "RATIO_MID",
+        "inv_n": 1990,
+        "investor_ratio": 0.4154488517745303,
+        "income_per_respondent": 59.013361169102296,
+        "avg_age_estimated": 49.47708333,
+        "address": "Vermilion, AB T9X, Canada",
+        "prov": 48
+      }
+    }
+  ]
+}
